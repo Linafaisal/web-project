@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Edit Property</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="sharedStyle.css">
+         <link rel="stylesheet" href="PropertyDetails.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Playfair+Display:ital@1&family=Roboto:ital@1&display=swap" rel="stylesheet">
+ 
+    </head> 
+    <body>
+                    <header> 
+    <div>
+        <a href="homepage.html"><img src="logo.png" height=168 width=180 alt="LOGO"></a>
+      <h1 style="font-style: italic;  font-size: 45px; font-family: Garamond, serif ;   text-shadow: 4px 5px black; 
+          color:white; display:inline; position: relative; bottom: 70px; left: 30px;">
+       HOUSE DEAL</h1>
+    </div>
+            
+        </header>
+        <main>
+       <button id="log">
+            <span> <a href="homepage.html"> LOG OUT</a></span>
+        </button>
+        <form  name="formEdit" action="EditProperty.html" id="formEdit">
+           <fieldset>  
+    <legend> Property details </legend>
+    
+    <label> Property name: <br>
+    <input id="name" type="text" name="name" value="Home plaza"> </label><br>
+    <label> Category: <br>
+    <select name="category" id="category" >
+        <option> Apartment</option>
+        <option> Villa </option> </select>
+            </label><br> 
+    <label> Number of rooms: <br>
+    <input id="numRooms" type="text" name="numRooms" value="4"> </label><br> 
+    <label> Rent: <br>
+    <input id="rent" type="text" name="rent" value="2500/month"> </label><br>  
+    <label> Location: <br>
+    <input id="location" type="text" name="location" value="Riyadh,Al-Naries,District"> </label><br>  
+    <label> Max number of tenants: <br>
+    <input id="maxNum" type="text" name="maxNum" value="5"> </label><br> 
+    <label> Description: <br>
+    <input id="description" type="text" name="description"> </label><br> 
+    <label> Pictures of the property: <br>
+        <img src="img.jpg" alt="home plaza image" width="60" height="60"> 
+         <img src="img2.jpg" alt="home plaza image2" width="60" height="60"> <br>
+  </label>
+    
+   
+    <a href="EditProperty.html">  Delete    </a><a href="EditProperty.html">    Delete</a><br><br>
+        <a href="EditProperty.html">Upload new images</a>
+    <br> <br> 
+     <button> <a href="Propertydetails.html"> Save changes</a> </button> 
+   
+       </fieldset>  
+            
+        </form>
+        </main>
+         <footer>
+            <div class="copyright">
+          <p> <i class="fa-regular fa-copyright"></i>2023 House deal-All Rights Reserved</p>
+        </div>
+        </footer>
+    </body>
+</html>

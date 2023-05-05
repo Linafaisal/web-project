@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home seeker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sharedStyle.css"> 
+        <link rel="stylesheet" href="homeSeeker.css"> 
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Playfair+Display:ital@1&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    </head>
+    
+    
+    
+    
+    
+    
+    
+    <body>
+        
+           <header> 
+    <div>
+        <a href="homepage.html"><img src="logo.png" height=168 width=180 alt="LOGO"></a>
+      <h1 style="font-style: italic;  font-size: 45px; font-family: Garamond, serif ;   text-shadow: 4px 5px black; 
+          color:white; display:inline; position: relative; bottom: 70px; left: 30px;">
+       HOUSE DEAL</h1>
+    </div>
+            
+        </header>    
+
+        
+        <main>
+            <h1> Welcome Sarah! </h1> 
+                
+         <button>
+            <span> <a href="homepage.html"> LOG OUT</a></span>
+        </button>
+       <ul>
+            <li>your name: Sarah Fahad</li>
+            <li>number of family members: 5 </li>
+            <li>phone number: 0557233333 </li>
+            <li>email address: sarahFahad@gmail.com</li>
+        </ul>
+        
+        
+        <table style="width:95%">
+            <caption>Requested Homes</caption>
+            <thead>
+                <tr>
+                    <th> Property Name</th>
+                    <th> Category</th>
+                    <th>Rent</th><!-- comment -->
+                    <th> Status </th>
+                </tr>
+                </thead>
+<tbody>
+                <tr>
+                    <td> <a href="propertyDetails.html" > Olaya Plaza </a> </td>
+                    <td> Apartment </td>
+                    <td> 1000/month </td>
+                    <td> Under Consideration </td>
+                    <td> <a href="withdraw.html" > Withdraw </a> </td>
+                </tr>
+                
+                <tr>
+                    <td> <a href="propertyDetails.html" > Al Nakheel Home </a> </td>
+                    <td> Villa </td>
+                    <td> 4000/month </td>
+                    <td> Accepted </td>
+                    <td> </td>
+                </tr>
+                       
+            </tbody>
+        </table>
+        
+        <br>
+        <br>
+        <label id="searchByCategory" for="category"> Search by Category </label>
+        <select name="category" id="category" >
+            <option>Apartment</option>
+            <option>Villa </option>
+        </select>
+        
+        
+        <table style="width:95%">
+            <caption>Homes for Rent</caption>
+            <thead>
+                <tr>
+                    <th> Property Name</th>
+                    <th> Category</th>
+                    <th>Rent</th><!-- comment -->
+                    <th> Number of Rooms </th>
+                    <th> Location </th>                    
+                </tr>
+            </thead>
+<tbody>
+                <tr>
+                    <td> <a href="propertyDetails.html" > Sweet Home </a> </td>
+                    <td> Apartment </td>
+                    <td> 1500/month </td>
+                    <td> 3 </td>
+                    <td> Riyadh,Al-yasmin District </td>
+                    <td> <a href="" > Apply </a> </td> <!-- change LINKED PAGE -->
+                </tr>
+                
+                <tr>
+                    <td> <a href="propertyDetails.html" > Comfy Homes </a> </td>
+                    <td> Villa </td>
+                    <td> 5000/month </td>
+                    <td> 6 </td>
+                    <td> Riyadh,Al-malqa District </td>
+                    <td> <a href="" > Apply </a></td> <!-- change LINKED PAGE in phase2 (for now Apply doesnt do anything) -->
+                </tr>
+                       
+            </tbody>
+        </table>
+        
+        </main> 
+        <footer>
+             <div class="copyright">
+          <p> <i class="fa-regular fa-copyright"></i>2023 House deal-All Rights Reserved</p>
+        </div>
+        </footer>
+    </body>
+</html>

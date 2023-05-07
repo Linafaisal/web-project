@@ -11,7 +11,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <body>
         <?php
         // put your code here
-        echo 'Hello';
+        $name='lina';
+        $n2='faisal';
+        $name = &$n2;
+        echo "Hello $name";
+       $name='l';
+        echo "Hello $n2";
+         echo "Hello $name";
         ?>
     </body>
 </html>
